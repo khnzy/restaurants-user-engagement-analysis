@@ -1,10 +1,35 @@
-Problem Statement
-In a competitive market like the restaurant industry, understanding the factors that influence business success is crucial for stakeholders. Utilizing the Yelp dataset, this project aims to investigate the relationship
-between user engagement (reviews, tips, and check-ins) and business success metrics (review count, ratings) for restaurants.
+# 🍽️ Yelp Restaurant Success Factors Analysis
 
-Recommendations
-Utilizing insights from the analysis of various metrics such as user engagement, sentiment of reviews,peak hours, and the impact of elite users, businesses can make informed decisions to drive success.
-Collaborating with elite users and leveraging their influence can amplify promotional efforts, increase brand awareness, and drive customer acquisition.
-Businesses can adjust their operating hours or introduce special promotions to capitalize on the increased demand during peak hours.
-Less successful businesses may need to focus on strategies to enhance user engagement over time, such as improving service quality, responding to customer feedback.
-Cities with high success scores presents opportunities for restaurant chains to expand or invest further.
+## 🎯 Project Goal
+This project analyzes the **Yelp dataset** to investigate the relationship between **user engagement** (reviews, tips, check-ins) and **business success metrics** (review count, star ratings) for restaurants. The primary objective is to provide stakeholders with **actionable, data-driven insights** for operational adjustments and strategic expansion.
+
+***
+
+## 📊 Key Findings & Results
+
+| Metric | Observation | Strategic Impact |
+| :--- | :--- | :--- |
+| **Customer Loyalty** | Restaurants with **4+ star ratings** had **25% higher review volumes** and **30% more check-ins**. | High quality directly drives customer retention and loyalty, leading to disproportionately higher engagement. |
+| **Elite User Influence** | **Elite users** (4.5% of the total user base) contributed **44% of all reviews**. | Highlights the importance of identifying and collaborating with high-value customers to amplify promotional efforts. |
+| **Geographic Opportunities** | **Philadelphia** was identified as the top city for success, followed by **Tampa, Indianapolis, and Tucson**. | Guides data-driven location expansion and investment decisions for restaurant chains. |
+| **Engagement Trends** | Peak user engagement occurred between **4 PM to 1 AM**, a trend that dipped during the COVID-19 pandemic. | Informs staffing and operational strategies, suggesting optimal hours for special promotions. |
+
+***
+
+## 💡 Strategic Recommendations
+
+1.  **Leverage Elite Users:** Actively engage and collaborate with high-value elite users. Their influence can significantly **amplify promotional efforts** and increase brand awareness.
+2.  **Optimize Peak Hours:** Adjust operating hours or introduce special promotions to **capitalize on the increased demand between 4 PM and 1 AM**.
+3.  **Enhance User Engagement:** Less successful businesses should focus on improving service quality and **responding proactively to customer feedback** to build loyalty over time.
+4.  **Targeted Expansion:** Cities identified with high success scores (Philadelphia, Tampa, Indianapolis, Tucson) present prime opportunities for **expansion or increased investment**.
+
+***
+
+## 🛠️ Technical Implementation
+
+| Category | Tools & Techniques | Description |
+| :--- | :--- | :--- |
+| **Data Processing** | Python, Pandas | Processed 8.9 GB of raw Yelp JSON data into structured, usable dataframes. |
+| **Database** | SQLAlchemy, SQLite3 | Used Python and SQLAlchemy to create relational tables and migrate the data into a SQLite database. |
+| **Analysis** | SQL, Pandas | Performed in-depth SQL analytics in Jupyter Notebook to extract key metrics and relationships. |
+| **Environment** | Jupyter Notebook | Primary environment for data manipulation and analysis. |
